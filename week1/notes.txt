@@ -1,0 +1,95 @@
+the <head> tag is for the meta data - such as scripts 
+the <header> tag is the most important part of the page
+
+use only one <h1> per page
+
+<nav> primarily used for screen readers, this is a navigation element. 
+
+<main> designates the content of the website
+
+<section> sectioning off content as a seperation for screen readers
+
+<p> content or block of text
+
+<ul> w/ each <li>   unordered list with each list element
+
+list item can include other tags such as an <a href> anchor tag
+
+<footer> similar to a <header> section but at the end (footer!)
+
+<div> is more of a place holder - and a <section> is a repeated section
+
+<aside> would be like a sidebar 
+
+div === 'division' of the page; a very generic, non-semantic element.
+
+
+in css
+
+p {
+
+}
+
+p is known as the selector
+ 	{ 
+	
+ 	--declaration block----\/
+	attribute: values;
+	
+	}
+	
+
+
+element > classes > id
+
+classes is if applying to more than one element
+
+id is supposed to be specific to one
+id's are the most specific.
+
+polluting the global name space by using to many id's
+can target multiple selectors
+
+p, h1, h3 {
+- declaration block would affect all selectors -- 
+}
+
+if you have 
+
+div.my-class {
+
+}
+
+because there is no space - it will apply only to div with the class "my-class"
+
+div, .my-class {
+
+}
+would apply to all divs, and to class "my-class"
+
+
+common css attributes ------>
+background
+background-color
+border
+color (text color)
+font
+height, width
+margin (creates space outside of an element)
+padding (creates space within an element)
+text-align (direction of text)
+
+
+paragraph element - changing the font color
+
+p {
+  color: white;
+}
+
+table element 
+
+table td {
+  color: #222;
+}
+
+

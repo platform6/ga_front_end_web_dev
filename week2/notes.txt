@@ -1,0 +1,56 @@
+p:hover (/w the colon) are known as pseudo selectors
+
+
+normalizing output
+
+to include normalize.css
+
+<head> 
+<title></title>
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css.main.css">
+</head>
+
+
+head can include google analytics
+
+
+in  codepen - there is code setting option to add Normalize as a CSS base
+
+
+block-level elements inherit the box model
+div, section, ul, nav, header, foooter
+
+
+inline-elements do not inherit box model
+span, img, sub, sup, textblock
+
+
+
+
+<div>1</div>
+<div>2</div>
+<div>3</div>
+<div>4</div>
+<!-- block style by default, block elements stack -->
+
+<a href="">a</a>
+<a href="">b</a>
+<a href="">c</a>
+<a href="">d</a>
+<!--- inline elments by default, line up in a row -->
+
+
+div {
+  display: inline;
+}
+
+<!-- this css will override the default block element to make 1 2 3 4 inline->
+
+
+
+
+width=100% height=500px
+
+
+
